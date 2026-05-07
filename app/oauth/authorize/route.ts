@@ -67,6 +67,7 @@ function renderConsentPage(params: AuthorizeParams, error?: string): string {
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="icon" type="image/png" href="/icon.png" />
 <title>Authorize Klaviyo MCP</title>
 <style>
   body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
