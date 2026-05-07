@@ -1,4 +1,4 @@
-# SLO Klaviyo MCP
+# SOI Klaviyo MCP
 
 Custom remote MCP server for Klaviyo, designed to fill the gaps in Claude's native Klaviyo connector.
 Server-side Klaviyo Private API Key (no Klaviyo OAuth) and a static-password OAuth gate for Claude. Stateless — no database or Redis.
@@ -65,7 +65,7 @@ vercel link
 vercel deploy --prod
 ```
 
-Note the production URL (e.g. `https://slo-klaviyo-mcp.vercel.app`).
+Note the production URL (e.g. `https://soi-mcp.vercel.app`).
 
 ### 3. Set env vars
 
@@ -87,7 +87,7 @@ In Claude Desktop or claude.ai:
 **Settings → Connectors → Add custom connector**
 
 - **Name**: Klaviyo (custom)
-- **URL**: `https://<your-vercel-domain>/mcp`
+- **URL**: `https://soi-mcp.vercel.app/mcp`
 
 Claude will discover the OAuth metadata, register itself, and redirect you to the consent screen. Enter `CONNECTOR_PASSWORD` and click **Approve**. Tools then appear in Claude.
 

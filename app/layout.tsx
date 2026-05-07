@@ -1,7 +1,7 @@
 import type { ReactNode } from "react";
 
 export const metadata = {
-  title: "SLO Klaviyo MCP",
+  title: "SOI Klaviyo MCP",
   description: "Custom Klaviyo MCP connector",
 };
 

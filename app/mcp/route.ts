@@ -11,7 +11,7 @@ const handler = createMcpHandler(
   },
   {
     serverInfo: {
-      name: "slo-klaviyo-mcp",
+      name: "soi-klaviyo-mcp",
       version: "0.1.0",
     },
   },

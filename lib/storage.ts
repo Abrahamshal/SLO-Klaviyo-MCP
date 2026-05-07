@@ -1,6 +1,6 @@
 import { SignJWT, jwtVerify } from "jose";
 
-const ISSUER = "slo-klaviyo-mcp";
+const ISSUER = "soi-klaviyo-mcp";
 
 let cachedKey: Uint8Array | null = null;
 function getKey(): Uint8Array {
